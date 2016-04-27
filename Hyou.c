@@ -3,7 +3,7 @@
 
 int field[30][30];
 
-void my_init();
+void my_init(int,int);
 void my_field(int,int);
 
 int main()
@@ -38,20 +38,20 @@ void my_init(int a,int b)
 			printf("縦: ");
 			fgets(str,sizeof(str),stdin);
 			sscanf(str,"%d",&x);
-			if(x>b){
+			if(x>b-1){
 				printf("%d以下をもう一度入力\n",b);
 			}
-		}while(x>b);
+		}while(x>b-1);
 		if(str[0]=='E')
 			break;
 		do{
 			printf("横: ");
 			fgets(str,sizeof(str),stdin);
 			sscanf(str,"%d",&y);
-			if(y>a){
+			if(y>a-1){
 				printf("%d以下をもう一度入力\n",a);
 			}
-		}while(y>a);
+		}while(y>a-1);
 		if(str[0]=='E')
 			break;
 		for(i=0;i<30;i++){
