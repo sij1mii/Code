@@ -59,14 +59,14 @@ void set1()
         }
         for(y=0;y<Y;y++){
       else{
-3           //printf(" %s", *masu3);
-3           printf(" %s", *masu4);
-3         }
-3       }
-3       printf("\n");
-3     }
-2     usleep(200000);
-     system("clear");
+           //printf(" %s", *masu3);
+           printf(" %s", *masu4);
+         }
+       }
+       printf("\n");
+    }
+    usleep(200000);
+    system("clear");
     n++;
-   }while(n != M);
- }
+  }while(n != M);
+}
