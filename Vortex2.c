@@ -4,7 +4,7 @@
 #include<time.h>
 
 #define A "⏹"
-#define B "⚫"
+#define B "●"
 #define C "⬜"
 #define D " "
 
@@ -101,7 +101,7 @@ void set1(int *r,int *rr)
 (n<120&&(y==15)))))||
 (y<a[n]-23&&(x==12&&((n<121&&(y==15))||(n<122&&(y==16)))))){
 					printf("\x1b[%d;%dm",rr[1],r[1]);
-					printf(" %s", *masu1);
+					printf(" %s", *masu2);
 					printf("\x1b[0m");
 				}
 				//左上
@@ -133,7 +133,7 @@ void set1(int *r,int *rr)
 (n<120&&(y==7)))))||
 (y<a[n]-72&&(x==4&&((n<121&&(y==7))/*||(n<122&&(y==8))*/)))){
 					printf("\x1b[%d;%dm",rr[0],r[2]);
-					printf(" %s", *masu1);
+					printf(" %s", *masu2);
 					//printf("\x1b[0m");
 				}
 				//右上
@@ -165,7 +165,7 @@ void set1(int *r,int *rr)
 (n<120&&(y==24)))))||
 (y<a[n]-55&&(x==4&&((n<121&&(y==24))/*||(n<122&&(y==25))*/)))){
 					printf("\x1b[%d;%dm",rr[0],r[2]);
-					printf(" %s", *masu1);
+					printf(" %s", *masu2);
 					//printf("\x1b[0m");
 				}
 				//左下
@@ -197,7 +197,7 @@ void set1(int *r,int *rr)
 (n<120&&(y==7)))))||
 (y<a[n]-72&&(x==19&&((n<121&&(y==7))/*||(n<122&&(y==8))*/)))){
 					printf("\x1b[%d;%dm",rr[1],r[4]);
-					printf(" %s", *masu1);
+					printf(" %s", *masu2);
 					//printf("\x1b[0m");
 				}
 				//右下
@@ -229,7 +229,7 @@ void set1(int *r,int *rr)
 (n<120&&(y==24)))))||
 (y<a[n]-55&&(x==19&&((n<121&&(y==24))/*||(n<122&&(y==25))*/)))){
 					printf("\x1b[%d;%dm",rr[1],r[4]);
-					printf(" %s", *masu1);
+					printf(" %s", *masu2);
 					printf("\x1b[0m");
 				}
       	else{
