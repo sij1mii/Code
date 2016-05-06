@@ -239,7 +239,7 @@ void set1(int *r,int *rr)
       }
       printf("\n");
     }
-    usleep(200000);
+    usleep(180000);
     system("clear");
     n++;
   }while(n != M);
