@@ -58,7 +58,8 @@ void set1()
           printf("%d", x);
         }
         for(y=0;y<Y;y++){
-      else{
+
+      		else{
            //printf(" %s", *masu3);
            printf(" %s", *masu4);
          }

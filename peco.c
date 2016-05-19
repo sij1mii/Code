@@ -47,8 +47,6 @@ void set1(int *r,int *rr)
   
 		srand((unsigned)time(NULL));
     do{
-      printf("%d\n", n);
-
 			if(n==44){
 				t = 44;				
 				tt=rand()%(20-10)+10;
@@ -81,29 +79,12 @@ void set1(int *r,int *rr)
 				t=214;
 				tt=rand()%(20-10)+11;
 			}
-			printf("%d\n",t);
   
       for(i=0,j=M;i<M;i++,j--){
         a[i]=i;
         c[i]=j;
       }
-      /*for(i=0;i<Y;i++){
-        if(i==0){ 
-					printf("    %d", i);
-				} 
-        else if(i>=1 && i<10){ 
-					printf(" %d", i);
-				}
-        else{ 
-					printf("%d", i);
-				}
-			}
-      printf("\n");*/
-
       for(x=0;x<X;x++){
-        /*if(x<10){ printf(" %d", x);}
-        else{ printf("%d", x);}*/
-
         for(y=0;y<Y;y++){
 					//目
 					if((n>0&&n<238&&(x==12&&((y==11)||(y==21))))||
